@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(73, 180, 247);
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Crimson Text', serif;
+  margin: 20px;
+  color: rgb(252, 253, 241);
+}
+header {
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(123, 212, 253, .75);
+}
+content {
+  display: flex;
+  justify-content: center;
+  align-items: span-around;
+  flex-wrap: wrap;
+  background-color: rgba(123, 212, 253, .75);
+  border-radius: 20px;
+}
+.project {
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  background-color: rgb(123, 212, 253);
+  border: 1px solid white;
+  border-radius: 20px;
+}
+footer {
+  background-color: rgba(123, 212, 253, .75);
+  display: flex;
+  justify-content: center;
+  align-items: span-around;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.tile {
+  background-color: rgb(181, 173, 254);
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.link {
+  height:100px;
+  width: 100px;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+  font-family: 'Kumar One', cursive;
+  font-size: 60px;
+  text-align: center;
+  line-height: 100px;
+
+}
+.backButton {
+  text-decoration: none;
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+.profile {
+  width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+}
