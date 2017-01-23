@@ -12,10 +12,9 @@ header {
   border-radius: 20px;
   background-color: rgba(123, 212, 253, .75);
 }
-content {
+.portfolio {
   display: flex;
   justify-content: center;
-  align-items: span-around;
   flex-wrap: wrap;
   background-color: rgba(123, 212, 253, .75);
   border-radius: 20px;
@@ -32,7 +31,6 @@ footer {
   background-color: rgba(123, 212, 253, .75);
   display: flex;
   justify-content: center;
-  align-items: span-around;
   flex-wrap: wrap;
   border-radius: 20px;
   margin-top: 20px;
@@ -51,7 +49,6 @@ footer {
 }
 a {
   text-decoration: none;
-  font-family: 'Kumar One', cursive;
   font-size: 60px;
   text-align: center;
   line-height: 100px;
