@@ -65,3 +65,8 @@ a {
   margin: 20px;
   border-radius: 10px;
 }
+#towers {
+  background-image: url('./images/project_1_thumb.png');
+  background-size: cover;
+  background-position: center;
+}
