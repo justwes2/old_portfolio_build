@@ -4,7 +4,7 @@ body {
   background-size: cover;
   background-position: center;
   font-family: 'Crimson Text', serif;
-  margin: 20px;
+  padding: 20px;
   color: rgb(252, 253, 241);
 }
 header {
@@ -69,4 +69,21 @@ a {
   background-image: url('./images/project_1_thumb.png');
   background-size: cover;
   background-position: center;
+}
+.topbar {
+  border: 0;
+  background-color: rgba(123, 212, 253, .75);
+  border-radius: 10px;
+  /*margin-bottom: 0;*/
+  height: 150px
+}
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+}
+.holder {
+  height: 150px;
 }
